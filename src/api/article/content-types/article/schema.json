@@ -1,33 +1,33 @@
 {
-  "kind": "collectionType",
-  "collectionName": "articles",
-  "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "Article",
-    "description": "Create your blog content"
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "title": {
-      "type": "string"
+    "kind": "collectionType",
+    "collectionName": "articles",
+    "info": {
+      "singularName": "article",
+      "pluralName": "articles",
+      "displayName": "Article",
+      "description": "Create your blog content"
     },
-    "description": {
-      "type": "text",
-      "maxLength": 80
+    "options": {
+      "draftAndPublish": true
     },
-    "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
-    },
+    "pluginOptions": {},
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "text",
+        "maxLength": 80
+      },
+      "cover": {
+        "type": "media",
+        "multiple": false,
+        "required": false,
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos"
+        ]
+      }
+    }
   }
-}
